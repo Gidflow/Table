@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        /* body{
+            max-width: 1080;
+            margin-right: auto;
+        } */
+        table, th, td {
+            
+            border-collapse: collapse;
+            border: 1px solid #000;
+            text-align: left;
+            
+        }
+        table{
+            width: 70%;
+        }
+
+    tr:nth-child(odd){
+        background-color: rgb(180, 180, 180);
+    }
+    th{
+        background-color: rgb(171, 221, 196);
+    }
+
+    tr:hover{
+        background-color: rgb(115, 153, 138);
+    }
+
+    img{
+        margin-left: 20px;
+    }
+    
+
+   
+    </style>
+</head>
+<body>
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#table-of-contents">Table Of Contents</a>|
+      <a href="#Top-5-Mountains">Top 5 Highest Mountains in the World</a>
+    </nav>
+    
+     <h1 id="Home">Top Five Mountains In The World</h1>
+     <br>
+
+     <section>
+        <h2 id="table-of-contents">TABLE OF CONTENTS</h2>
+         <a href="#mountain-name"><h4>Mountain</h4></a> 
+          <ul>
+            <li> <a href="#mountain-height"> Height</a></li>
+            <li> <a href="#mountain-location">Location</a></li>
+            <li> <a href="#mountain-location">Location</a></li>
+          </ul>
+     </section>
+
+     <table id="Top-5-Mountains" title="Top 5 Mountains in the world">
+        <caption>"Data Source: Wikipedia".</caption>
+    
+            <thead>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Height (in meters)</th>
+                <th>Location</th>
+                <th>First Ascent</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mount Everest <img src="./images/everest.jpg" alt="Mountain Everest"></td>
+                    <td>8848</td>
+                    <td>Nepal/China</td>
+                    <td>1953</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>K2 <img src="./images/k2.jpg" alt="Mountain K2"></td>
+                    <td>8611</td>
+                    <td>Pakistan/China</td>
+                    <td>1954</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kanchenjunga <img src="./images/Kanchenjunga.jpg" alt="Mountain Kanchenjunga"></td>
+                    <td>8586</td>
+                    <td>Nepal/China</td>
+                    <td>1955</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Lhotse <img src="./images/Lhotse.jpg" alt="Mountain Lhotse"> </td>
+                    <td>8516</td>
+                    <td>Nepal/China</td>
+                    <td>1956</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Makalu <img src="./images/Makalu.jpg" alt="Mountain Makalu"></td>
+                    <td>8485</td>
+                    <td>Nepal/China</td>
+                    <td>1955</td>
+                </tr>
+            </tbody>
+    
+        
+     </table>
+</body>
+</html>
